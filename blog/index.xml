@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Gastón Rial</title><link>https://rialg.github.io/blog/</link><description>Recent content in Blogs on Gastón Rial</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rialg.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Under construction 🚧</title><link>https://rialg.github.io/blog/first-article-under-construction/</link><pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate><guid>https://rialg.github.io/blog/first-article-under-construction/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Gastón Rial</title>
+    <link>https://rialg.github.io/blog/</link>
+    <description>Recent content in Blogs on Gastón Rial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rialg.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leaving Google...</title>
+      <link>https://rialg.github.io/blog/first-article-leaving-google/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rialg.github.io/blog/first-article-leaving-google/</guid>
+      <description>Note: Originally this article, which was titled &#34;Bad Management&#34;, was a long rant on how big tech corpos in low-income european countries have a hard time finding people suitable to lead engineering teams and how their unbalanced (race biased) compensation system and lack of incentives to work drag many foreigners to quickly decide to migrate somewhere else, even in spite of all the perks and forced cultural integration typical of any multinational company based in the USA, which fails to operate in these locations.</description>
+    </item>
+    
+  </channel>
+</rss>
