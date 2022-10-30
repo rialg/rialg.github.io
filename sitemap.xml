@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://rialg.github.io/categories/article/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/blog/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/categories/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/tags/construction/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/tags/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/blog/first-article-under-construction/</loc><lastmod>2022-09-05T00:00:00+00:00</lastmod></url><url><loc>https://rialg.github.io/tags/about/</loc></url><url><loc>https://rialg.github.io/categories/about/</loc></url><url><loc>https://rialg.github.io/about/</loc></url><url><loc>https://rialg.github.io/tags/contact/</loc></url><url><loc>https://rialg.github.io/categories/contact/</loc></url><url><loc>https://rialg.github.io/contact/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://rialg.github.io/tags/about/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/categories/about/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/about/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/categories/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/tags/contact/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/categories/contact/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/contact/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/</loc>
+  </url><url>
+    <loc>https://rialg.github.io/tags/</loc>
+  </url>
+</urlset>
