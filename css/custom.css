@@ -2,9 +2,8 @@
 .footer {
     bottom: 0%;
     position: relative;
-    text-align: center;
 }
-.container-2 {
+#footer-container {
     bottom: 0%;
-    position: absolute;    
+    position: absolute;
 }
