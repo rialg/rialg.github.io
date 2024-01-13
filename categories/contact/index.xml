@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>contact on Gastón Rial</title>
-    <link>https://rialg.github.io/categories/contact/</link>
+    <link>https://uruguayo.eu/categories/contact/</link>
     <description>Recent content in contact on Gastón Rial</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://rialg.github.io/categories/contact/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://uruguayo.eu/categories/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://rialg.github.io/contact/</link>
+      <link>https://uruguayo.eu/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rialg.github.io/contact/</guid>
+      <guid>https://uruguayo.eu/contact/</guid>
       <description>Hi 👋 If you want to chat about systems design, performance or reliability engineering, please feel free to email me.</description>
     </item>
     
