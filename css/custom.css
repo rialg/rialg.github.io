@@ -1,6 +1,10 @@
 /* Add custom CSS here. */
 .footer {
     bottom: 0%;
-    position: fixed;
-    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.container-2 {
+    bottom: 0%;
+    position: absolute;    
 }
