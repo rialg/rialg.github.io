@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>contact on Gastón Rial Saibene</title>
-    <link>https://uruguayo.eu/tags/contact/</link>
+    <link>https://uruguayo.me/tags/contact/</link>
     <description>Recent content in contact on Gastón Rial Saibene</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://uruguayo.eu/tags/contact/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://uruguayo.me/tags/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://uruguayo.eu/contact/</link>
+      <link>https://uruguayo.me/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uruguayo.eu/contact/</guid>
+      <guid>https://uruguayo.me/contact/</guid>
       <description>Hi 👋 If you want to chat about systems design, performance or reliability engineering, please feel free to email me.</description>
     </item>
     
