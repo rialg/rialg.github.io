@@ -81,8 +81,8 @@ header {
 }
 
 .profile-img {
-    width: 8rem;
-    height: 8rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     margin: 0 auto 1rem;
     display: block;
@@ -129,6 +129,7 @@ section {
 }
 
 .section-title {
+    text-align: center;
     font-size: 1.875rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
@@ -153,7 +154,8 @@ section {
 
 @media (min-width: 768px) {
     .about-image {
-        width: 50%;
+        width: 40%;
+        height: 40%;
     }
 }
 
