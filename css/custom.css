@@ -1,0 +1,188 @@
+/* =============================================
+   custom.css — Visual polish & enhancements
+   ============================================= */
+
+/* --- Smooth entrance animations --- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+header {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.social-links {
+    animation: fadeInUp 0.8s ease-out 0.15s both;
+}
+
+section {
+    animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.site-footer {
+    animation: fadeIn 0.8s ease-out 0.45s both;
+}
+
+/* --- Profile image polish --- */
+.profile-img {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+}
+
+.profile-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+}
+
+[data-theme="dark"] .profile-img {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .profile-img:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Social icon hover effects --- */
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.social-links a:hover {
+    background-color: var(--hover-bg);
+    transform: translateY(-3px);
+}
+
+.social-links a:active {
+    transform: translateY(0);
+}
+
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover .social-icon {
+    transform: scale(1.15);
+}
+
+/* --- About section image --- */
+.about-image {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+}
+
+.about-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .about-image {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* --- Link styling in about text --- */
+.about-text a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1.5px solid transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+}
+
+.about-text a:hover {
+    border-bottom-color: var(--accent-color);
+}
+
+/* --- Section title decoration --- */
+.section-title {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--accent-color);
+    margin: 0.6rem auto 0;
+    border-radius: 2px;
+}
+
+/* --- Footer --- */
+.site-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-gray);
+    font-size: 0.875rem;
+}
+
+.site-footer a {
+    color: var(--text-gray);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: var(--accent-color);
+}
+
+/* --- Theme toggle refinement --- */
+.theme-toggle {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(128, 128, 128, 0.08);
+}
+
+.theme-toggle:hover {
+    transform: rotate(15deg);
+}
+
+/* --- Selection color --- */
+::selection {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/* --- Smooth scroll --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Better text rendering --- */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+/* --- Responsive refinements --- */
+@media (max-width: 768px) {
+    .about-image {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
