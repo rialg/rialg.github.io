@@ -254,7 +254,7 @@ section {
     flex-wrap: wrap;
 }
 
-.download-cv {
+.contact-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -269,12 +269,12 @@ section {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-.download-cv:hover {
+.contact-btn:hover {
     background-color: var(--accent-hover);
     transform: translateY(-1px);
 }
 
-.download-icon {
+.contact-btn-icon {
     width: 18px;
     height: 18px;
     stroke: currentColor;
